@@ -3,7 +3,8 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Mock JavaScript Documentation</title>
+        <title>Mock JavaScript Documentation</title>
+        <link rel="stylesheet" href="style.css">
 	</head>
 	<body>
 		<nav id="navbar">
@@ -59,10 +60,16 @@
 					<h1>Values, Types & Operators</h1>
 					<p>
 						Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime,
-						voluptatibus!
+                        voluptatibus!
+                        <code>let num = Number(prompt("Pick a number"));
+                           <p> if (num < 10) { console.log("Small");</p>
+                            <p>} else if (num < 100) { console.log("Medium");</p> 
+                           <p>} else { console.log("Large");</p> 
+                           <p>}</p> 
+                        </code>
 					</p>
-					Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo autem
-					nam dicta ea architecto excepturi facilis ipsam. Id, maiores laborum.
+					<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo autem
+					nam dicta ea architecto excepturi facilis ipsam. Id, maiores laborum.</p>
 				</header>
 			</section>
 			<section class="main-section" id="Program_Structure">
@@ -77,8 +84,8 @@
                             <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente, temporibus.</li>
                         </ul>
 					</p>
-					Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo autem
-					nam dicta ea architecto excepturi facilis ipsam. Id, maiores laborum.
+					<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo autem
+					nam dicta ea architecto excepturi facilis ipsam. Id, maiores laborum.</p>
 				</header>
 			</section>
 			<section class="main-section" id="Functions">
@@ -86,10 +93,19 @@
 					<h1>Functions</h1>
 					<p>
 						Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime,
-						voluptatibus!
-					</p>
-					Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo autem
-					nam dicta ea architecto excepturi facilis ipsam. Id, maiores laborum.
+						voluptatibus;
+                    </p>
+                    <code>
+                       <p>console.log(0);</p>
+                       <p>console.log(2); </p>
+                       <p>console.log(4); </p>
+                       <p>console.log(6);</p>
+                       <p>console.log(8); </p>
+                       <p> console.log(10);</p>
+                       <p>console.log(12);</p>
+                    </code>
+					<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo autem
+					nam dicta ea architecto excepturi facilis ipsam. Id, maiores laborum.</p>
 				</header>
 			</section>
 			<section class="main-section" id="Data_Structures:_Objects_and_Arrays">
@@ -104,8 +120,8 @@
                         <li>Lorem ipsum dolor sit.</li>
                         <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente, temporibus.</li>
                     </ul>
-					Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo autem
-					nam dicta ea architecto excepturi facilis ipsam. Id, maiores laborum.
+					<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo autem
+					nam dicta ea architecto excepturi facilis ipsam. Id, maiores laborum.</p>
 				</header>
 			</section>
 			<section class="main-section" id="Higher-Order_Functions">
@@ -114,9 +130,18 @@
 					<p>
 						Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime,
 						voluptatibus!
-					</p>
-					Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo autem
-					nam dicta ea architecto excepturi facilis ipsam. Id, maiores laborum.
+                    </p>
+                    <code>
+                        let result = 1;
+                       <p>let counter = 0;</p>
+                       <p>while (counter < 10) {</p>
+                       <p>result = result * 2;</p>
+                       <p>counter = counter + 1;
+                    }</p>
+                       <p>console.log(result); // → 1024</p> 
+                       </code>
+					<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo autem
+					nam dicta ea architecto excepturi facilis ipsam. Id, maiores laborum.</p>
 				</header>
 			</section>
 			<section class="main-section" id="The Secret_Life_of_Objects">
@@ -125,9 +150,16 @@
 					<p>
 						Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime,
 						voluptatibus!
-					</p>
-					Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo autem
-					nam dicta ea architecto excepturi facilis ipsam. Id, maiores laborum.
+                    </p>
+                    <code>
+                        let yourName;
+                       <p>do {</p>
+                       <p>yourName = prompt("Who are you?");</p>
+                       <p> } while (!yourName);</p>
+                       <p>console.log(yourName);</p> 
+                    </code>
+					<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo autem
+					nam dicta ea architecto excepturi facilis ipsam. Id, maiores laborum.</p>
 				</header>
 			</section>
 			<section class="main-section" id="Bugs_and_Errors">
@@ -142,8 +174,8 @@
                         <li>Lorem ipsum dolor sit.</li>
                         <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente, temporibus.</li>
                     </ul>
-					Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo autem
-					nam dicta ea architecto excepturi facilis ipsam. Id, maiores laborum.
+					<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo autem
+					nam dicta ea architecto excepturi facilis ipsam. Id, maiores laborum.</p>
 				</header>
 			</section>
 			<section class="main-section" id="Regular_Expressions">
@@ -152,9 +184,16 @@
 					<p>
 						Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime,
 						voluptatibus!
-					</p>
-					Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo autem
-					nam dicta ea architecto excepturi facilis ipsam. Id, maiores laborum.
+                    </p>
+                    <code>
+                       <p>let dateTime = /\d\d-\d\d-\d\d\d\d \d\d:\d\d/;</p>
+                       <p>console.log(dateTime.test("01-30-2003 15:20")); </p>
+                       <p>// → true</p>
+                       <p> console.log(dateTime.test("30-jan-2003 15:20"));</p>  
+                        <p>// → false</p>
+                    </code>
+					<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo autem
+					nam dicta ea architecto excepturi facilis ipsam. Id, maiores laborum.</p>
 				</header>
 			</section>
 			<section class="main-section" id="Modules">
@@ -163,9 +202,22 @@
 					<p>
 						Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime,
 						voluptatibus!
-					</p>
-					Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo autem
-					nam dicta ea architecto excepturi facilis ipsam. Id, maiores laborum.
+                    </p>
+                    <code>
+                        const weekDay = function() {
+                       <p>const names = ["Sunday", "Monday", "Tuesday", "Wednesday",</p>
+                       <p>"Thursday", "Friday", "Saturday"];</p>
+                       <p>return {</p>
+                       <p>name(number) { return names[number];</p>
+                       <p> }, number(name) { return names.indexOf(name);</p>
+                       <p> }
+                    };</p>
+                       <p> }();</p> 
+                       <p>console.log(weekDay.name(weekDay.number("Sunday")));</p>
+                       <p>// → Sunday</p>
+                         </code>
+					<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo autem
+					nam dicta ea architecto excepturi facilis ipsam. Id, maiores laborum.</p>
 				</header>
 			</section>
 		</main>
